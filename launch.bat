@@ -1,3 +1,3 @@
 @echo OFF
 
-start cmd /k "cd tic-tac-toe & ng serve"
+start cmd /k "cd tic-tac-toe & npm start"
