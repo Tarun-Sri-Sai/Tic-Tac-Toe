@@ -4,8 +4,8 @@ import { GameService } from '../game.service';
 @Component({
   selector: 'app-player',
   templateUrl: './player.component.html',
-  styleUrls: ['./player.component.css']
+  styleUrls: ['./player.component.css'],
 })
 export class PlayerComponent {
-  constructor(public gameService: GameService) { }
+  constructor(public gameService: GameService) {}
 }
