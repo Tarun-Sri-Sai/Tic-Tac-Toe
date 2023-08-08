@@ -1,39 +1,39 @@
 div {
-  font-size: 24px;
-  border: 1px solid orange;
-  width: fit-content;
-  margin: 20px auto;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #fff0e0;
+    font-size: 24px;
+    border: 1px solid orange;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff0e0;
 }
 
 .highlight-box-silver {
-  background-color: silver;
-  color: #333333;
-  border: 1px solid #cccccc;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
+    background-color: silver;
+    color: #333333;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 .highlight-box-silver:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 .highlight-box-yellow {
-  background-color: yellow;
-  color: #333333;
-  border: 1px solid #cccc00;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
+    background-color: yellow;
+    color: #333333;
+    border: 1px solid #cccc00;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 .highlight-box-yellow:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }

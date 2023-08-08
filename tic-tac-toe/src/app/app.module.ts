@@ -9,16 +9,16 @@ import { ResultComponent } from './result/result.component';
 import { TitleComponent } from './title/title.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    BoardComponent,
-    CellComponent,
-    PlayerComponent,
-    ResultComponent,
-    TitleComponent,
-  ],
-  imports: [BrowserModule],
-  providers: [],
-  bootstrap: [AppComponent],
+    declarations: [
+        AppComponent,
+        BoardComponent,
+        CellComponent,
+        PlayerComponent,
+        ResultComponent,
+        TitleComponent,
+    ],
+    imports: [BrowserModule],
+    providers: [],
+    bootstrap: [AppComponent],
 })
 export class AppModule {}
