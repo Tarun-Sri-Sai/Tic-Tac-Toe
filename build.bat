@@ -1,7 +1,7 @@
 @echo off
 
 start cmd /k ^
-    "cd tic-tac-toe" ^
+    "cd frontend" ^
     "& npm install" ^
     "& npm install @angular/cli" ^
     "& npm audit fix" ^

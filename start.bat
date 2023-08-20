@@ -1,5 +1,5 @@
 @echo OFF
 
 start cmd /k ^
-    "cd tic-tac-toe" ^
+    "cd frontend" ^
     "& npm start"
