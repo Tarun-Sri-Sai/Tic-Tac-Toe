@@ -3,8 +3,31 @@ import { GameService } from '../game.service';
 
 @Component({
   selector: 'app-cell',
-  templateUrl: './cell.component.html',
-  styleUrls: ['./cell.component.css'],
+  template: `
+    <div class="container">
+      <div class="cell" (click)="setPlayerMark()" [ngStyle]="getBackgroundColor()">
+        {{ getMark() }}
+      </div>
+    </div>
+
+  `,
+  styles: [`
+    .cell {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      width: 100px;
+      height: 100px;
+      border-radius: 5px;
+      margin: 10px;
+      font-size: 90px;
+    }
+
+    .container {
+      display: inline-table;
+    }
+
+  `],
 })
 export class CellComponent {
   row: number;
@@ -53,3 +76,4 @@ export class CellComponent {
     return this.gameService.boardMatrix[this.row][this.col];
   }
 }
+
