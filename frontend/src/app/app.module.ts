@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { BoardComponent } from './board/board.component';
-import { CellComponent } from './cell/cell.component';
-import { PlayerComponent } from './player/player.component';
-import { ResultComponent } from './result/result.component';
-import { TitleComponent } from './title/title.component';
+import { BoardComponent } from './board.component';
+import { CellComponent } from './cell.component';
+import { PlayerComponent } from './player.component';
+import { ResultComponent } from './result.component';
+import { TitleComponent } from './title.component';
 
 @NgModule({
   declarations: [
