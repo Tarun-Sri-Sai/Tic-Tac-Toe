@@ -8,7 +8,7 @@ A web application to play the game of Tic Tac Toe against an AI opponent.
 
 This project requires the following software:
 
-- docker:24.0.6
+- docker:24
 
 ## Usage
 
